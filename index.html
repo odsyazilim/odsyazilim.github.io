@@ -3,20 +3,63 @@
   <meta charset='utf-8'>
   <meta name='viewport' content='width=device-width'>
   <title>Odsahin Software</title>
-  <style> body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; padding:1em; } </style>
+  <style>
+body { 
+font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; padding:1em; 
+.column1 {
+  float: left;
+  width: 10%;
+}
+.column2 {
+  float: left;
+  width: 90%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+}
+  </style>
 </head>
 
 <body>
 We provide fun little apps for you to enjoy on your mobile devices.
 </p><hr><p>
 
-<div>
-<a href="https://play.google.com/store/apps/details?id=com.odsahin.dotdisplay">
-  <img src="app_logo.webp" aria-hidden="true" alt="Icon image" itemprop="image">
-  <div>LED Dot Display</div>
-</a>
+<div class="row">
+  <div class="column1">
+    <a href="https://play.google.com/store/apps/details?id=com.ods.led.display" target="_blank">
+      <img src="app_led_logo.webp" aria-hidden="true" alt="Icon image" itemprop="image" height="128" width="128">
+      <div>LED Image Scroller</div>
+    </a>
+  </div>
+  <div class="column2">
+      <b>LED Image Scroller</b> app turns your mobile device screen into an LED scroller for text and images. It has over 40 font selections, unlimited color combinations and various exciting features.
+You can display any text, icons and image as scrolling or still LED banner on your device. You can customize a wide variety of options such as font style (color, size, family), image size, scroll speed, background color, LED style (LED density, zoom level, type). LED Display also provides additional features such as blinking text, letterboxing, horizontal and vertical borders.
+It is time to create some LED art on your phone!
+<p>
+This app uses <a href="https://github.com/yukuku/ambilwarna" target="_blank">AmbilWarna</a> (for color picking) and <a href="https://github.com/Yalantis/uCrop" target="_blank">uCrop</a> (for image cropping) libraries.
+<p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PGacJJuAhPM?si=pKD_vLU4pWjgqIgH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
 </div>
-
+</p><hr><p>
+<div class="row">
+  <div class="column1">
+    <a href="https://play.google.com/store/apps/details?id=com.odsahin.dotdisplay" target="_blank">
+      <img src="app_logo.webp" aria-hidden="true" alt="Icon image" itemprop="image">
+      <div>LED Dot Display</div>
+    </a>
+  </div>
+  <div class="column2">
+      <b>LED DotDisplay</b> is a fun little app to turn your mobile device screen into an LED Scroller and LED Banner to show scrolling text. It has over 40 font selections, unlimited color combinations and several carefully designed initial configurations to showcase app capabilities.
+You can display any text and icons as a scrolling (or still) LED banner on your device. You can customize a wide variety of options such as font color, size, and style, scroll speed, background color, LED style (LED density, zoom level, type). LED DotDisplay also provides additional features such as blinking text, letterboxing, horizontal and vertical borders.
+It is time to create some LED art on your phone!
+  </div>
+</div>
 </p><hr><p><a href="privacy.html" target="_blank">Privacy Policy</a></p>
 </body>
 </html>
